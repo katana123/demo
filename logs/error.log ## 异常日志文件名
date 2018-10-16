@@ -1,0 +1,30 @@
+2018-10-16 17:04:44  [ restartedMain:0 ] - [ DEBUG ]  {conn-10001} connected
+2018-10-16 17:04:44  [ restartedMain:36 ] - [ DEBUG ]  {conn-10002} connected
+2018-10-16 17:04:44  [ restartedMain:47 ] - [ DEBUG ]  {conn-10003} connected
+2018-10-16 17:04:44  [ restartedMain:55 ] - [ DEBUG ]  {conn-10004} connected
+2018-10-16 17:04:44  [ restartedMain:61 ] - [ DEBUG ]  {conn-10005} connected
+2018-10-16 17:04:44  [ restartedMain:67 ] - [ DEBUG ]  {conn-10005} pool-connect
+2018-10-16 17:04:44  [ restartedMain:69 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2018-10-16 17:04:44  [ restartedMain:366 ] - [ DEBUG ]  {conn-10005} pool-connect
+2018-10-16 17:04:45  [ restartedMain:421 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2018-10-16 17:04:45  [ restartedMain:933 ] - [ DEBUG ]  {conn-10005} pool-connect
+2018-10-16 17:04:45  [ restartedMain:997 ] - [ DEBUG ]  {conn-10005, stmt-20000} created
+2018-10-16 17:04:45  [ restartedMain:1104 ] - [ DEBUG ]  {conn-10005, stmt-20000} executed. 103.608592 millis. alter table t_order add constraint FKjx32fdox43ruu9ocfp0cb03to foreign key (goodid) references t_good (id)
+2018-10-16 17:04:45  [ restartedMain:1141 ] - [ DEBUG ]  {conn-10005, stmt-20000} executed. 30.919887 millis. alter table t_order add constraint FKr59g678vomr4xn8t4mtul8ltw foreign key (userid) references t_user (id)
+2018-10-16 17:04:45  [ restartedMain:1142 ] - [ DEBUG ]  {conn-10005, stmt-20000} closed
+2018-10-16 17:04:45  [ restartedMain:1142 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2018-10-16 17:05:15  [ restartedMain:0 ] - [ DEBUG ]  {conn-10001} connected
+2018-10-16 17:05:15  [ restartedMain:28 ] - [ DEBUG ]  {conn-10002} connected
+2018-10-16 17:05:15  [ restartedMain:56 ] - [ DEBUG ]  {conn-10003} connected
+2018-10-16 17:05:15  [ restartedMain:63 ] - [ DEBUG ]  {conn-10004} connected
+2018-10-16 17:05:15  [ restartedMain:70 ] - [ DEBUG ]  {conn-10005} connected
+2018-10-16 17:05:15  [ restartedMain:76 ] - [ DEBUG ]  {conn-10005} pool-connect
+2018-10-16 17:05:15  [ restartedMain:80 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2018-10-16 17:05:15  [ restartedMain:366 ] - [ DEBUG ]  {conn-10005} pool-connect
+2018-10-16 17:05:15  [ restartedMain:422 ] - [ DEBUG ]  {conn-10005} pool-recycle
+2018-10-16 17:05:16  [ restartedMain:951 ] - [ DEBUG ]  {conn-10005} pool-connect
+2018-10-16 17:05:16  [ restartedMain:1034 ] - [ DEBUG ]  {conn-10005, stmt-20000} created
+2018-10-16 17:05:16  [ restartedMain:1167 ] - [ DEBUG ]  {conn-10005, stmt-20000} executed. 127.682573 millis. alter table t_order add constraint FKjx32fdox43ruu9ocfp0cb03to foreign key (goodid) references t_good (id)
+2018-10-16 17:05:16  [ restartedMain:1197 ] - [ DEBUG ]  {conn-10005, stmt-20000} executed. 25.691036 millis. alter table t_order add constraint FKr59g678vomr4xn8t4mtul8ltw foreign key (userid) references t_user (id)
+2018-10-16 17:05:16  [ restartedMain:1198 ] - [ DEBUG ]  {conn-10005, stmt-20000} closed
+2018-10-16 17:05:16  [ restartedMain:1198 ] - [ DEBUG ]  {conn-10005} pool-recycle
